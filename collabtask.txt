@@ -2,7 +2,7 @@
 <html>
 <head>
 <title>eduladder login</title>
-</head>
+</head> 
 <body align = middle bgcolor = "black">
 <font color = "gold">
 <img src="http://eduladder.com/images/app/logo.jpg" align middle>
