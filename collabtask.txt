@@ -8,18 +8,20 @@
 <img src="http://eduladder.com/images/app/logo.jpg" align middle>
 <h3><u>Eduladder changing the way education is:</u></h3>
 <h1>Login</h1>                           
-<p><input type="text" placeholder="Enter Username Here"></p>
+<p><input type="text" placeholder="noor24323@example.com"></p>
 <p><input type="password" placeholder="Enter Password Here"></p>
 <p><input type="checkbox" checked="unchecked">Remember user</p>
 <button><font color="black">Sign In</font></button><br><br>
 or<br><br>
-<button>Sign Up</button> <!Sam was here>
+<button>Sign Up</button>
 <a href="http://eduladder.com/login.php">forgot password</a>
 </font>
 
 </body>
 </html>
+<!Sam was here>
 <!Tarun was here>
 <!Aparna was here-PU-009>
 <!prajwala was here>
 <!Milan was here>
+<!Noor was here>
