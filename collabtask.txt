@@ -3,9 +3,10 @@
 <head>
 <title>eduladder login</title>
 </head> 
-<body align = middle bgcolor = "blue">
+<body align = middle bgcolor = "green">
 <font color = "black">
 <img src="http://eduladder.com/images/app/logo.jpg" align middle>
+<h3><u>Eduladder changing the way education is:</u></h3>
 <h1>Login</h1>                           
 <p><input type="text" placeholder="Enter Username Here"></p>
 <p><input type="password" placeholder="Enter Password Here"></p>
@@ -21,3 +22,4 @@ or<br><br>
 <!Tarun was here>
 <!Aparna was here-PU-009>
 <!prajwala was here>
+<!Milan was here>
