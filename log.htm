@@ -1,0 +1,43 @@
+<html>
+<body background="http://cdn2.hubspot.net/hubfs/270915/Blog_post_documents/Tech.jpg">
+<form>
+
+<tr>
+<td><font size=10 ; color="white"><b>Eduladder Login Page</b></font></td>
+</tr>
+
+<tr>
+<td><br><br/><font size=5; color="white">Username:</font></td>
+<td><input type="text" size=25 name="userid"></td>
+</tr>
+
+<tr>
+<td><br><br/><font size=5; color="white">Password:</font></td>
+<td><input type="Password" size=25 name="pwd"></td>
+</tr>
+
+<tr>
+<td ><br><br/><input type="Reset"></td>
+<td><input type="submit" onclick="check(this.form)" value="Login"></td>
+</tr>
+
+</table>
+</form>
+<script language="javascript">
+function check(form)
+{
+
+if(form.userid.value == "Roseindia" && form.pwd.value == "Roseindia")
+{
+window.open('target.html')
+}
+else
+{
+alert("Error Password or Username")
+}
+}
+</script>
+
+</body>
+</html>
+
