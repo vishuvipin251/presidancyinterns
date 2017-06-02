@@ -10,8 +10,8 @@
 <p><input type="text" placeholder="Enter Username Here"></p>
 <p><input type="password" placeholder="Enter Password Here"></p>
 <p><input type="checkbox" checked="unchecked">Remember user</p>
-<button><font color="blue">Sign In</font></button><br>
-or
+<button><font color="blue">Sign In</font></button><br><br>
+or<br><br>
 <button>Sign Up</button> <!Sam was here>
 <a href="http://eduladder.com/login.php">forgot password</a>
 </font>
@@ -19,3 +19,4 @@ or
 </body>
 </html>
 <!Tarun was here>
+<!Aparna was here-PU-009>
