@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular-route.js"></script>
+    <body>
+	<body ng-app="myApp">
+	<h1>eduladder login page</h1>
+	<p><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSEgeQCxbqNzmR4yG9-qQ1Cb00Hf3h-8Bci9ujFj3ig-TjkNFDDtw">
+        </p><form>
+		<table>
+		<tr>
+			<td><font size=6;color="green">user name :</td>
+			<td><input type="text" name="username" value=""/></td>
+		</font></tr>
+		<tr>
+			<td><font size=6;color="green">password :</td>
+			<td><input type="password" name="password" value="" /></td>
+		</font> </tr>
+		<tr>
+			<td>
+			<p><a href="#/!">login</a></p>
+			</td>
+			<td>
+			<p><a href="#/!">forgot password</a></p>
+			</td>
+		</tr>
+		<tr>
+			<td>
+			<input type="checkbox" >remember me?
+			</td>
+		</tr>
+		</table>
+<script>
+var app = angular.module("myApp", ["ngRoute"]);
+app.config(function($routeProvider) {
+    $routeProvider
+    .when("/login", {
+        templateUrl : "log_in.html"
+    })
+    .when("/forgot password", {
+        templateUrl : "forgot_password.html"
+    });
+});
+</script>
+	</form>
+    </body>
+</html>
+
