@@ -1,0 +1,18 @@
+<div class = "container">
+    <h1>Registration Form</h1>
+    <form>
+        <div class = "form-group">
+            <label for = "userName">Enter your name:</label>
+            <input type = "text" class = "form-control" id = "userName" required
+                [(ngmodel)] = "model.userName" name = "userName">
+        </div>
+        <div class = "form-group">
+            <label for = "email">Enter your E-mail id:</label>
+            <input type = "text" class = "form-control" id = "email" required
+                [(ngmodel)] = "model.email" name = "email">
+        </div>
+        <div class = "form-group">
+            <label for = "password">Enter the password:</label>
+            <input type = "text" class = "form-control" id = "password" required
+                [(ngmodel)] = "model.email" name = "password">
+        </div>
