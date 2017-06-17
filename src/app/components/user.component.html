@@ -1,0 +1,26 @@
+<p>What should i call you?</p>
+
+  <form>
+    <label>Name:</label>
+    <input type="text" name="name" [(ngModel)]="name"/>
+  </form>
+
+  <h1>Hello {{name}}!</h1>
+  <p>Do you wanna know some secrets?</p>
+
+  <button (click)="showmore()">{{showMore ? "Hide Secrets!":"Yes!"}} </button>
+  <div *ngIf="showMore">
+     <h5>Hahaha nothing over here!<br/>BUT<br/>Ssshhh let's keep that a Secret!</h5>
+     <p>Do you have any secrets to add?<p>
+       
+     <ul>
+        <li *ngFor = "let secret of secrets;let j =index">
+            {{secret}} <button (click)="deletesecret(j)">X</button>
+        </li>
+     </ul>   
+
+      <form (submit)="addSecret(secret.value)">
+            <label>Add secrets</label>
+            <input type=text #secret/>
+      </form>
+  </div>
