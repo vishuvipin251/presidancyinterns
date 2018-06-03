@@ -1,0 +1,74 @@
+<html>
+    <head>
+        <script>
+            function a()
+            {
+                var p=f.p.value;
+                var cp=f.cp.value;
+                var t1=f.t1.value;
+                var t2=f.t2.value;
+                var e=f.em.value;
+                var a= /^[A-Z a-z]+$/;
+                var b=/^[0-9]+$/;
+                if(t1.match(a))
+                    { 
+                        if(t2.match(b))
+                            {
+                                if(t2.length==10)
+                                   {
+                                       if(/^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/.test(e))
+                                          {                                   
+                                            if(p==cp)
+                                            {
+                                                alert("REGISTRATION IS SUCCESSFUL!")
+                                            }
+                                            else { alert("PASSWORD ENTERED IS MISMATCHED!")}  
+                                          }
+                                        else{alert("EMAIL IS INVALID!")}
+                                   }
+                                else{alert("PHONE NO IS INCORRECT!")}
+                            }
+                            else
+                            {
+                                alert("ONLY NUMBERS ARE ALLOWED IN PHONE NUMBER!")
+                            }
+                            
+                         
+                    }
+                else
+                {
+                    alert("SPECIAL SYMBOL AND NUMBERS ARE NOT ALLOWED IN NAME!")
+                }
+            }
+
+        </script>
+        <title>Register for Eduladder</title>
+        <link rel="stylesheet" type="text/css" href="final.css">
+        <body>
+        <div class="registerbox">
+            <h1>Sign Up</h1>
+            <form name="f">
+                <p>Name</p>
+                <input type="text" name="t1" placeholder="Enter Name" required>
+                                <p>Phone No </p>
+                <input type="text" name="t2" placeholder="Enter Phone No" required>
+                <p>Email</p>
+            <input type="text" name="em" placeholder="Enter Email" required>
+                <p>Password</p>
+            <input type="password" name="p" placeholder="Enter Password" required>
+                <p>Confirm Password</p>
+            <input type="password" name="cp" placeholder="Enter Password Again" required>
+            
+                <p>Gender</p>
+                <input type="radio" name="g">Male<br />
+                <input type="radio" name="g">Female
+                <p></p>
+                <p>By creating an account you agree to our <a href="#" style="color:dodgerblue">Terms & Privacy</a>.</p>
+        
+                <input type="submit" name="s" value="       Sign up       " onclick="a();">
+                
+            </form>
+            </div>
+        </body>
+    </head>
+</html>
